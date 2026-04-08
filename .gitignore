@@ -1,0 +1,20 @@
+# Output files
+win11.iso
+win11.log
+
+# Scratch and Temp Dirs
+scratchdir/
+win11/
+
+# Executables downloaded during execution
+oscdimg.exe
+
+# PowerShell specifics
+*.tmp
+
+# IDE / OS specific
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
