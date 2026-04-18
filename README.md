@@ -75,7 +75,7 @@ Free Space: Sufficient free space on your scratch disk to extract, mount, and re
 
 
 
-The "bypass" folder contains specific files necessary for bypassing system checks. You can add custom OEM scripts into the "bypass$OEM$" folder if you wish to apply additional configurations during the Windows installation.
+The "bypass" folder contains specific files necessary for bypassing system checks.
 
 
 
