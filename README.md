@@ -30,7 +30,7 @@ Automatic WIM Optimization: Restores the original WIM metadata, cleans up compon
 
 
 
-Driver Injection: Automatically injects custom drivers into both the Windows image ("drivers\\install") and the boot environment ("drivers\\boot").
+Driver Injection: Automatically injects custom drivers into both the Windows image and the boot environment.
 
 
 
@@ -79,7 +79,11 @@ The "bypass" folder contains specific files necessary for bypassing system check
 
 
 
-The "drivers" folder contains two subfolders: "install" and "boot". Drivers placed in the "install" folder will be injected into the Windows image, while those in the "boot" folder will be integrated into the boot environment (boot.wim).
+The "drivers" folder contains two subfolders: "install" and "boot". Drivers placed in the "install" folder will be injected into the Windows image, while those in the "boot" folder will be integrated into the boot environment.
+
+
+
+Important note for drivers: To avoid file conflicts, do not place all your driver files directly in the root of these folders. Instead, create a separate subfolder for each driver package. The script will automatically scan all subfolders and inject them correctly.
 
 
 
