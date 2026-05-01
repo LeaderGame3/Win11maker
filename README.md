@@ -10,6 +10,10 @@ Win11maker is a PowerShell script designed to create customized, debloated Windo
 
 
 
+User-Friendly GUI: A modern, dark-themed, and bilingual (English/French) graphical interface for easy configuration.
+
+
+
 Hardware Bypass: Automatically bypasses Windows 11 system requirements.
 
 
@@ -64,9 +68,9 @@ Free Space: Sufficient free space on your scratch disk to extract, mount, and re
 
 1. Clone or download this repository to your local machine.
 2. Ensure you have your Windows 11 ISO mounted or installation USB inserted.
-3. Run the PowerShell script as Administrator.
-4. The script will prompt you for the drive letter of the Windows 11 installation media.
-5. Follow the on-screen instructions. The script will prompt you to choose the output format (ISO or USB) and will extract, mount, debloat, and rebuild the image.
+3. Run the PowerShell script as Administrator (or the compiled .exe).
+4. A graphical interface will launch. Select your language, source drive, output format, USB settings (if applicable), and desired modifications.
+5. Click "Start Creation" to begin the process. The tool will automatically extract, mount, debloat, and rebuild the image.
 6. Once completed, your customized "win11.iso" file or Bootable USB will be ready to use.
 
 
