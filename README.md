@@ -26,6 +26,14 @@ Privacy Improvements: Disables various telemetry and data collection services, W
 
 
 
+Software Pre-installation: Integrates Winget search directly into the GUI to select and automatically install your favorite applications during the first setup.
+
+
+
+Unattended Setup: Generates a custom autounattend.xml file to automate the out-of-box experience, creating a local admin account without requiring a Microsoft account.
+
+
+
 Automated ISO or USB Creation: Modifies your existing "install.wim" or "install.esd", cleans it up, and compiles a ready-to-use "win11.iso" or a Bootable USB Flash Drive.
 
 
@@ -68,7 +76,7 @@ Free Space: Sufficient free space on your scratch disk to extract, mount, and re
 
 1. Clone or download this repository to your local machine.
 2. Ensure you have your Windows 11 ISO mounted or installation USB inserted.
-3. Run the PowerShell script as Administrator (or the compiled .exe).
+3. Run the PowerShell script or the .exe file as Administrator.
 4. A graphical interface will launch. Select your language, source drive, output format, USB settings (if applicable), and desired modifications.
 5. Click "Start Creation" to begin the process. The tool will automatically extract, mount, debloat, and rebuild the image.
 6. Once completed, your customized "win11.iso" file or Bootable USB will be ready to use.
